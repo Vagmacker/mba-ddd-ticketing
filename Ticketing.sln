@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.Domain", "src\Tic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.UnitTests", "tests\Ticketing.UnitTests\Ticketing.UnitTests.csproj", "{D39BCB7E-7B72-473A-A5DD-D8608878EF82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.Infrastructure", "src\Ticketing.Infrastructure\Ticketing.Infrastructure.csproj", "{AA0C0521-046A-40EE-B014-FAFC569A3409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ticketing.Application", "src\Ticketing.Application\Ticketing.Application.csproj", "{01068FD1-92B5-405D-9C0A-84F33967D64C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +20,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{EAC4675A-6B50-45A3-940B-585D1C0B642F} = {1EAD9BD6-7AEF-4A83-B9DF-28D0543AE7E0}
 		{D39BCB7E-7B72-473A-A5DD-D8608878EF82} = {FF97492E-75BE-425B-B2E1-389D6820B9D4}
+		{AA0C0521-046A-40EE-B014-FAFC569A3409} = {1EAD9BD6-7AEF-4A83-B9DF-28D0543AE7E0}
+		{01068FD1-92B5-405D-9C0A-84F33967D64C} = {1EAD9BD6-7AEF-4A83-B9DF-28D0543AE7E0}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{EAC4675A-6B50-45A3-940B-585D1C0B642F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -26,5 +32,13 @@ Global
 		{D39BCB7E-7B72-473A-A5DD-D8608878EF82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D39BCB7E-7B72-473A-A5DD-D8608878EF82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D39BCB7E-7B72-473A-A5DD-D8608878EF82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA0C0521-046A-40EE-B014-FAFC569A3409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0C0521-046A-40EE-B014-FAFC569A3409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0C0521-046A-40EE-B014-FAFC569A3409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0C0521-046A-40EE-B014-FAFC569A3409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01068FD1-92B5-405D-9C0A-84F33967D64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01068FD1-92B5-405D-9C0A-84F33967D64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01068FD1-92B5-405D-9C0A-84F33967D64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01068FD1-92B5-405D-9C0A-84F33967D64C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
